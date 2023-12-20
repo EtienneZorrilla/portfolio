@@ -1,11 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
 
-  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
+  header {
+    background-image: url('image/fond-globale.png'); /* Chemin vers votre image */
+    background-size: cover; /* Ajuste la taille de l'image pour couvrir toute la zone */
+    background-position: center; /* Positionne l'image au centre */
+    padding: 50px; /* Ajoute un peu d'espace intérieur */
+    padding-top: 10px;
+}
+header nav {
+  background-image: url('../image/fond-globale.jpg'); /* Chemin vers votre image */
+  background-size: cover; /* Ajuste la taille de l'image pour couvrir toute la zone */
+  background-position: center; /* Positionne l'image au centre */
+  color: #000000; /* Couleur du texte si l'image est foncée */
+  padding: 50px; /* Ajoute un peu d'espace intérieur */
 }
 
-body {
-    font-family: 'Oswald', sans-serif;   
+header h1 {
+    margin: 5%; /* Supprime les marges par défaut du titre */
+    font-size: xx-large;
+    font-size: 50px;
+}
+
+nav ul li a {
+    list-style: none;
+    margin-left: 10%;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold; /* Met le texte en gras */
+    color: #bd7b02;
+     -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  }
+  
+  
+  nav ul li a:hover {
+     border-color: transparent; /* Cadre initial transparent */
+    border-radius: 10px;
+    background-color: #cccccc80;
+    background-size: 50px;
+    border-color: #000000; /* Cadre noir au survol */
+   
+}
+
+nav ul li {
+    display: inline; /* Affiche les éléments de menu en ligne */
+    margin-right: 20px; /* Marge entre les éléments de menu */
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Supprime la marge du dernier élément */
+}
+
+nav ul li a {
+    text-decoration: none; /* Supprime la décoration par défaut des liens */
+}
+div span{
+    font-weight: bold; 
+}
+
+
+
+
+
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin-top: 50px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.content-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.profile {
+    margin-bottom: 20px;
+}
+
+.profile img {
+    width: 200px;
+    height: auto;
+}
+
+.titles {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.titles h3 {
+    cursor: pointer;
+    border: 1px solid #ccc;
+    padding: 10px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.titles h3:hover {
+    background-color: #f0f0f0;
+    color: blue;
+}
+
+.content-container .content {
+    display: none;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.content-container .content.active {
+    display: block;
 }
