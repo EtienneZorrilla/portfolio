@@ -34,17 +34,23 @@ nav .img img{
     background: none;
     border: none;
   }
-nav ul li a {
+  nav ul li a {
     list-style: none;
-    margin-left: 10%;
     padding: 10px;
-    font-size: 30px;
+    font-size: 4vw; 
     font-weight: bold; 
     color: #bd7b02;
-     -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
-  }
-  
+    -webkit-text-stroke-width: 0.5px; 
+    -webkit-text-stroke-color: black;
+    text-decoration: none; 
+}
+
+@media (max-width: 768px) {
+    nav ul li a {
+        font-size: 6vw;
+    }
+}
+
 
   nav .menu li a:hover {
      border-color: transparent; 
