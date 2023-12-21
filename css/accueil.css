@@ -1,15 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
 
-
+body{
+    background-image: url('../image/font.jpg');
+    background-size: cover;
+}
   header {
-    background-image: url('image/fond-globale.png'); /* Chemin vers votre image */
+    /* Chemin vers votre image */
     background-size: cover; /* Ajuste la taille de l'image pour couvrir toute la zone */
     background-position: center; /* Positionne l'image au centre */
-    padding: 50px; /* Ajoute un peu d'espace intérieur */
+    padding: 5px; /* Ajoute un peu d'espace intérieur */
     padding-top: 10px;
+    margin: auto;
 }
 header nav {
-  background-image: url('../image/fond-globale.jpg'); /* Chemin vers votre image */
+    background-color: #cccccc80; /* Chemin vers votre image */
   background-size: cover; /* Ajuste la taille de l'image pour couvrir toute la zone */
   background-position: center; /* Positionne l'image au centre */
   color: #000000; /* Couleur du texte si l'image est foncée */
@@ -21,12 +25,11 @@ header h1 {
     font-size: xx-large;
     font-size: 50px;
 }
-
 nav ul li a {
     list-style: none;
     margin-left: 10%;
     padding: 10px;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold; /* Met le texte en gras */
     color: #bd7b02;
      -webkit-text-stroke-width: 1px;
@@ -64,42 +67,35 @@ div span{
 
 
 
-
-
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
     max-width: 800px;
     margin: 0 auto;
-    padding: 20px;
-    background-color: #f9f9f9;
+    padding: 30px 250px; /* Modifiez cette valeur pour élargir les marges horizontales */
+    background-color: #f9f9f995;
     margin-top: 50px;
     border-radius: 10px;
     border: 1px solid #ccc;
 }
 
-.content-container {
+.pratique {
     display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-}
-
-.profile {
-    margin-bottom: 20px;
-}
-
-.profile img {
-    width: 200px;
-    height: auto;
+    flex-direction: row;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 50px;
+    margin-right: 20px;
+    width: 100%;
 }
 
 .titles {
     display: flex;
     flex-direction: row;
     gap: 10px;
-    flex-wrap: wrap;
 }
 
 .titles h3 {
@@ -114,13 +110,49 @@ div span{
     color: blue;
 }
 
-.content-container .content {
+.profil img {
+    width: 250px;
+    height: auto;
+    margin-bottom: 20px;
+    margin-right: 100px;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Alignement vertical */
+    gap: 20px;
+    margin-top: 20px; /* Ajout d'une marge pour l'espacement */
+}
+
+.content {
     display: none;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
 
-.content-container .content.active {
+.content.active {
     display: block;
+}
+
+p{
+    font-size: 25px;
+}
+
+h2{
+    font-size: 35px;
+}
+h3{
+    font-size: 25px;
+}
+h4{
+    font-size: 30px;
+}
+footer mail{
+    color: rgb(255, 44, 44);
+    font-size: 35px;
+    font:900;
+    background-color: #f9f9f950;
+
 }
