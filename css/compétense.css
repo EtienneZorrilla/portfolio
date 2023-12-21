@@ -3,7 +3,7 @@ nav ul li a {
   margin-left: 10%;
   padding: 10px;
   font-size: 30px;
-  font-weight: bold; /* Met le texte en gras */
+  font-weight: bold; 
   color: #bd7b02;
    -webkit-text-stroke-width: 1px;
 -webkit-text-stroke-color: black;
@@ -11,25 +11,25 @@ nav ul li a {
 
 
 nav ul li a:hover {
-   border-color: transparent; /* Cadre initial transparent */
+   border-color: transparent; 
   border-radius: 10px;
   background-color: #cccccc80;
   background-size: 50px;
-  border-color: #000000; /* Cadre noir au survol */
+  border-color: #000000; 
  
 }
 
 nav ul li {
-  display: inline; /* Affiche les éléments de menu en ligne */
-  margin-right: 20px; /* Marge entre les éléments de menu */
+  display: inline; 
+  margin-right: 20px; 
 }
 
 nav ul li:last-child {
-  margin-right: 0; /* Supprime la marge du dernier élément */
+  margin-right: 0; 
 }
 
 nav ul li a {
-  text-decoration: none; /* Supprime la décoration par défaut des liens */
+  text-decoration: none; 
 }
 
 
@@ -39,16 +39,11 @@ nav ul li a {
 article li {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Alignement horizontal */
+    align-items: center; 
     width: 50%;
     padding: 2%;
     font-size: 25px;
-  }
-  
-  .content {
-    background-color: rgba(255, 255, 255, 0.5); /* Arrière-plan semi-transparent */
-    padding: 10px;
-    margin: 5px 0; /* Espacement autour du contenu */
+   
   }
   article div{
     display: flex;
@@ -59,17 +54,18 @@ article li {
     display: flex;
     flex-direction:row;
     align-items: center;
+    padding-top: 0%;
+    align-items: flex-start;
+
   }
 .comp{
   background-color: rgba(255, 255, 255, 0.5);
 }
-  section p{
-    color: aliceblue;
-  }
+ 
   article h3 p{
     font-size: 10px;
     color: black;
-    background-color: rgba(255, 255, 255, 0.5);/* Arrière-plan semi-transparent pour les titres */
+    background-color: rgba(255, 255, 255, 0.5);
     border-radius: 5px;
     margin-bottom: 10px;
     display: flex;
@@ -80,7 +76,9 @@ article li {
   article h2{ 
     color: aliceblue;
   }
-
+ section p{
+    color: aliceblue;
+  }
 footer h2{
   color: black;
 }

@@ -2,7 +2,7 @@ div {
     background-color: #cccccc80;
     width: 80%;
     max-width: 400px;
-    margin: 0 auto;
+    margin: 20px auto;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 8px;
@@ -34,4 +34,22 @@ div label,
     border-radius: 4px;
     padding: 10px;
     cursor: pointer;
+}
+footer {
+    text-align: center; 
+}
+
+footer .social-links {
+    list-style: none; 
+    padding: 50px; 
+    display: flex;
+    justify-content: center; 
+}
+footer .social-links li {
+    margin: 0 50px; 
+}
+
+footer .social-links a {
+    text-decoration: none; 
+    font-size: 100px; 
 }
