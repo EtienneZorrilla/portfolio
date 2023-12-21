@@ -1,3 +1,31 @@
+header {
+  background-size: cover; 
+  background-position: center; 
+  padding: 5px; 
+  padding-top: 10px;
+  margin: auto;
+}
+header nav {
+  background-color: #cccccc80; 
+background-size: cover; 
+background-position: center; 
+color: #000000; 
+padding: 50px; 
+}
+
+header h1 {
+  margin: 5%; 
+  font-size: xx-large;
+  font-size: 50px;
+}
+nav .img img{
+  width: 5%;
+  margin-right: 10px;
+}
+nav .img:hover {
+  background: none;
+  border: none;
+}
 nav ul li a {
   list-style: none;
   margin-left: 10%;
@@ -10,7 +38,7 @@ nav ul li a {
 }
 
 
-nav ul li a:hover {
+nav .menu li a:hover {
    border-color: transparent; 
   border-radius: 10px;
   background-color: #cccccc80;
@@ -32,7 +60,9 @@ nav ul li a {
   text-decoration: none; 
 }
 
-
+div span{
+  font-weight: bold; 
+}
 
 
 

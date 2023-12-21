@@ -28,6 +28,7 @@ header h1 {
 nav .img img{
     width: 5%;
     margin-right: 10px;
+    padding: 0 auto;
   }
   nav .img:hover {
     background: none;
