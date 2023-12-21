@@ -42,15 +42,8 @@ nav .img img{
     color: #bd7b02;
     -webkit-text-stroke-width: 0.5px; 
     -webkit-text-stroke-color: black;
-    text-decoration: none; 
-}
-
-@media (max-width: 768px) {
-    nav ul li a {
-        font-size: 6vw;
-    }
-}
-
+    text-decoration: none;
+  }
 
   nav .menu li a:hover {
      border-color: transparent; 
