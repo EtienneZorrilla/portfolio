@@ -70,7 +70,7 @@ article li {
     width: 50%;
     padding: 2%;
     font-size: 25px; 
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(72, 43, 235, 0.5);
     margin: 2%;
   }
   article ul{
@@ -86,7 +86,7 @@ article li {
     background-color: #00000025;
     display: inline;
   }
-  article h3 p{
+  section h3 p{
     font-size: 10px;
     color: black;
     background-color: rgba(255, 255, 255, 0.5); 
@@ -96,13 +96,14 @@ article li {
     display: flex;
     flex-direction:row;
     align-items: center;
-    text-decoration: underline;
   }
 
-  article h2{ 
+  article p{ 
     color: rgb(255, 255, 255);
   }
-
+li h3{
+  text-decoration: underline;
+}
   article ul li img{
     width: 300px;
     height: auto;

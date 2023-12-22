@@ -139,6 +139,7 @@ div span{
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    background-color:#e7555595 ;
 }
 .content.active {
     display: block;
@@ -146,6 +147,7 @@ div span{
 
 p{
     font-size: 25px;
+    font-weight: 500;
 }
 
 h2{

@@ -88,14 +88,24 @@ article li {
 
   }
 .comp{
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(72, 43, 235, 0.5);
 }
- 
-  article h3 p{
-    font-size: 10px;
-    color: black;
-    background-color: rgba(255, 255, 255, 0.5);
-    border-radius: 5px;
+ .comp h3{
+  text-decoration: underline;
+  font-size: 30px;
+}
+
+.comp p{
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+  }
+  .comp li p{
+    font-size: 28px;
+    color: rgb(255, 255, 255);
     margin-bottom: 10px;
     display: flex;
     flex-direction:row;
@@ -103,11 +113,20 @@ article li {
   }
 
   article h2{ 
-    color: aliceblue;
+    color: rgb(0, 0, 0);
+    background-color: #cccccc80;
+    display: inline;
   }
  section p{
     color: aliceblue;
+    background-color: #2a158880;
+    display: inline;
   }
-footer h2{
-  color: black;
+
+h4{
+  text-decoration: underline;
+}
+.comp h4{
+  text-decoration: underline;
+  font-size: 30px;
 }
