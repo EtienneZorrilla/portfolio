@@ -1,0 +1,26 @@
+@media print {
+    header, footer {
+      display: none;
+    }
+    
+    body {
+      background-color: #fff; 
+      color: #000; 
+    }
+    article li {
+      border: 1px solid #000; 
+      padding: 10px; 
+  }
+  .comp ol li{
+    border: none;
+  }
+ article p{
+    color: #000;
+  }
+.comp p{
+    color: #000;
+  }
+.comp li p{
+    color: #000;
+  }
+}
